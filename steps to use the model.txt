@@ -1,0 +1,15 @@
+open cmd
+to got path where you want to clone the repo
+use cmd --- git clone https://github.com/salonijain22/Face-Mask-Detection.git
+download python -- https://www.python.org/downloads/
+install dependencies: tensorflow, opencv-python, keras, imutils,argparse, matplotlib,scipy
+cmd--- pip install <name>
+* numpy should automatically get installed with tensorflow
+
+go to train_mask_detector.py and change directory path (if needed)
+-- to view accuracy --- cmd--- python train_mask_detector.py
+-- to view plot --- go to Face-Mask-Detection folder and open plot.png file
+
+for using camera (opencv)--- detect_mask_video.py
+--- to run the code-- cmd-- python detect_mask_video.py
+
